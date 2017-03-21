@@ -1,0 +1,28 @@
+{
+  "drachtio": {
+    "host": "127.0.0.1",
+    "port": 9022,
+    "secret": "cymru"
+  },
+  "mediaserver": {
+    "address": "127.0.0.1",
+    "port": 8021,
+    "secret": "ClueCon"
+  },
+  "logging": {
+    "transports": [
+      {
+        "filename": "console",
+        "level": "debug",
+        "handleExceptions": true
+      },
+      {
+        "filename": "/tmp/ivr-frontend.txt",
+        "level": "info",
+        "handleExceptions": true,
+        "json": false
+      }
+    ],
+    "exitOnError": true
+  }
+}
